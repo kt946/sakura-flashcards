@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+:root {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -71,6 +84,12 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-black text-neutral-100 font-sans;
   }
+}
+
+.bg-pattern {
+  background-image: url('/assets/images/bg-diamond-pattern-white.svg');
+  background-size: 14px;
+  opacity: 6%;
 }
