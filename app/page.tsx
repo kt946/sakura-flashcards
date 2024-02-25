@@ -38,7 +38,7 @@ export default function Home() {
                   <Link
                     href={`/${item.slug}`}
                     key={item.name}
-                    className="block space-y-1.5 rounded-lg bg-zinc-900 px-5 py-3 hover:bg-zinc-800 transition duration-300 ease-in-out"
+                    className="block space-y-1.5 rounded-lg bg-zinc-900 px-5 py-3 hover:bg-zinc-800 custom-transition"
                   >
                     <h3 className="text-lg sm:text-xl font-bold">{item.name}</h3>
 
