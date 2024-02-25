@@ -11,6 +11,7 @@ import lesson_9_data from './lessons/lesson-9/lesson-9-data';
 import lesson_10_data from './lessons/lesson-10/lesson-10-data';
 import lesson_11_data from './lessons/lesson-11/lesson-11-data';
 import lesson_12_data from './lessons/lesson-12/lesson-12-data';
+import lesson_13_data from './lessons/lesson-13/lesson-13-data';
 
 const genki_1_data = [
   lesson_0_data,
@@ -28,7 +29,7 @@ const genki_1_data = [
   lesson_12_data,
 ];
 
-const genki_2_data = [lesson_0_data];
+const genki_2_data = [lesson_13_data];
 
 export const genkiData = [
   { name: 'Genki Vol. I', slug: 'genki-1', data: genki_1_data },
