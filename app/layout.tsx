@@ -4,6 +4,7 @@ import './globals.css';
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -25,8 +26,7 @@ export default function RootLayout({
           <main className="flex-1 py-8">{children}</main>
           {/* Background Pattern */}
           <div className="fixed inset-0 w-full h-full -z-10 bg-pattern" />
-
-          {/* <ScrollToTopButton />  */}
+          <ScrollToTopButton />
           <Footer />
         </div>
       </body>
