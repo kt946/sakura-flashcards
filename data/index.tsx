@@ -1,6 +1,7 @@
 import lesson_0_data from './lessons/lesson-0/lesson-0-data';
+import lesson_1_data from './lessons/lesson-1/lesson-1-data';
 
-const genki_1_data = [lesson_0_data];
+const genki_1_data = [lesson_0_data, lesson_1_data];
 
 const genki_2_data = [lesson_0_data];
 
