@@ -86,6 +86,10 @@ body,
   body {
     @apply bg-black text-neutral-100 font-sans;
   }
+
+  .custom-transition {
+    @apply transition-all duration-300 ease-in-out;
+  }
 }
 
 .bg-pattern {
