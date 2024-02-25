@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { FaArrowLeft } from 'react-icons/fa';
 
+import Flashcard from '@/components/Flashcard';
 import { genkiData } from '@/data';
 
 interface FlashcardPageProps {
@@ -35,6 +36,7 @@ export default function FlashcardPage({ params }: FlashcardPageProps) {
         </div>
 
         {/* Flashcard Component */}
+        <Flashcard cardData={unit.items} />
       </div>
 
       <section className="space-y-5">
