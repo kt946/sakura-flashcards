@@ -93,3 +93,10 @@ body,
   background-size: 14px;
   opacity: 6%;
 }
+
+.bg-diamond-pattern {
+  background-image: url('/assets/images/bg-diamond-pattern-white-02.svg');
+  background-size: 14px;
+  -webkit-mask-image: linear-gradient(to bottom, transparent, transparent, rgba(255, 255, 255, 0.04));
+  mask-image: linear-gradient(to bottom, transparent, transparent, rgba(255, 255, 255, 0.04));
+}
