@@ -19,7 +19,7 @@ const Header = () => {
         <nav className="md:container flex max-md:justify-between items-center gap-12">
           <Link
             href="/"
-            className="flex items-center gap-2 hover:opacity-60 transition duration-300 ease-in-out"
+            className="flex items-center gap-2 hover:opacity-60 custom-transition"
           >
             <Image
               src="/assets/images/sakura-flashcards-logo.svg"
@@ -38,7 +38,7 @@ const Header = () => {
             {navLinks.map((link) => (
               <li
                 key={link.key}
-                className="hover:opacity-60 transition duration-300 ease-in-out"
+                className="hover:opacity-60 custom-transition"
               >
                 <Link
                   href={link.studySetId ? `${link.href}/${link.studySetId}` : link.href}
@@ -53,7 +53,7 @@ const Header = () => {
             <button
               type="button"
               onClick={toggleSidebar}
-              className="md:hidden p-2 hover:opacity-60 transition duration-300 ease-in-out"
+              className="md:hidden p-2 hover:opacity-60 custom-transition"
               aria-label="toggle sidebar"
             >
               <Menu className="size-7" />

@@ -84,7 +84,7 @@ body,
     @apply border-border;
   }
   body {
-    @apply bg-black text-neutral-100 font-sans;
+    @apply bg-black text-neutral-200 font-sans;
   }
 
   .custom-transition {
