@@ -7,6 +7,7 @@ import lesson_5_data from './lessons/lesson-5/lesson-5-data';
 import lesson_6_data from './lessons/lesson-6/lesson-6-data';
 import lesson_7_data from './lessons/lesson-7/lesson-7-data';
 import lesson_8_data from './lessons/lesson-8/lesson-8-data';
+import lesson_9_data from './lessons/lesson-9/lesson-9-data';
 
 const genki_1_data = [
   lesson_0_data,
@@ -18,6 +19,7 @@ const genki_1_data = [
   lesson_6_data,
   lesson_7_data,
   lesson_8_data,
+  lesson_9_data,
 ];
 
 const genki_2_data = [lesson_0_data];
