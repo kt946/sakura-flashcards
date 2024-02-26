@@ -8,7 +8,6 @@ type Item = {
   name: string;
   slug: string;
   description?: string;
-  color?: string;
 };
 
 export const StudySets: { name: string; items: Item[] }[] = [

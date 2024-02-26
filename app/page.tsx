@@ -20,9 +20,8 @@ export default function Home() {
                 </Link>
               </span>{' '}
               textbooks, our exercises are tailored to reinforce your understanding and retention of each lesson's
-              material. Simply navigate to any lesson and select the exercise you'd like to
-              tackle. Dive in, challenge yourself, and watch your Japanese skills soar! Happy
-              studying!
+              material. Simply navigate to any lesson and select the exercise you'd like to tackle. Dive in, challenge
+              yourself, and watch your Japanese skills soar! Happy studying!
             </p>
           </div>
 

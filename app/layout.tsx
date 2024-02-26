@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className='font-sans'>
+      <body className="font-sans">
         <div className="flex flex-col relative min-h-dvh">
           <Header />
           <main className="flex-1 py-8">{children}</main>
