@@ -88,6 +88,7 @@ The following features are planned for future releases:
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [shadcn/ui](https://ui.shadcn.com/)
+- [Framer Motion](https://www.framer.com/motion/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [Affinity Designer](https://affinity.serif.com/en-us/) - Original logo and image designs by [kt946](https://github.com/kt946)
 
