@@ -41,7 +41,10 @@ export default function StudySet({ params }: StudySetProps) {
               </li>
             ))}
           </ul>
+        </div>
 
+        <div className="space-y-5">
+          <h2 className="font-semibold uppercase tracking-wider text-neutral-400">Lessons</h2>
           <section className="space-y-10">
             {studySet?.data.map((lesson) => (
               <div
