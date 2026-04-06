@@ -1,19 +1,14 @@
+'use client';
+
 import Link from 'next/link';
+import { useParams } from 'next/navigation';
 import { FaArrowLeft } from 'react-icons/fa';
 
 import Flashcard from '@/components/Flashcard';
 import { genkiData } from '@/data';
 
-interface FlashcardPageProps {
-  params: {
-    studySetId: string;
-    lessonId: string;
-    flashcardId: string;
-  };
-}
-
-export default function FlashcardPage({ params }: FlashcardPageProps) {
-  const { studySetId, lessonId, flashcardId } = params;
+export default function FlashcardPage() {
+  const { studySetId, lessonId, flashcardId } = useParams();
   const studySet = genkiData.filter((set) => set.slug === studySetId)[0];
   const lesson = studySet.data.filter((lesson) => lesson.slug === lessonId)[0];
   const unit = lesson.units.filter((unit) => unit.slug === flashcardId)[0];

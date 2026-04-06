@@ -1,16 +1,13 @@
+'use client';
+
 import Link from 'next/link';
+import { useParams } from 'next/navigation';
 import { FaArrowLeft } from 'react-icons/fa';
 
 import { genkiData } from '@/data';
 
-interface StudySetProps {
-  params: {
-    studySetId: string;
-  };
-}
-
-export default function StudySet({ params }: StudySetProps) {
-  const { studySetId } = params;
+export default function StudySet() {
+  const { studySetId } = useParams()
   const studySet = genkiData.filter((set) => set.slug === studySetId)[0];
 
   return (
